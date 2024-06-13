@@ -1,33 +1,12 @@
 import ByteBuffer from 'bytebuffer';
 import * as fs from 'fs'
-import * as crypto from 'crypto'
 import Pako from 'pako';
 const MAGIC = 'Kaydara FBX Binary\x20\x20\x00\x1a\x00';
 const fbxVersion = 7400;
-const footerZeroes = 120;
-const footerCodeSize = 16;
 const createTime = new Date();
 const fileId = new Uint8Array([0x28, 0xb3, 0x2a, 0xeb, 0xb6, 0x24, 0xcc, 0xc2, 0xbf, 0xc8, 0xb0, 0x2a, 0xa9, 0x2b, 0xfc, 0xf1]);
-const sourceId = [0x58, 0xAB, 0xA9, 0xF0, 0x6C, 0xA2, 0xD8, 0x3F, 0x4D, 0x47, 0x49, 0xA3, 0xB4, 0xB2, 0xE7, 0x3D];
 const footerId = [0xfa, 0xbc, 0xab, 0x09, 0xd0, 0xc8, 0xd4, 0x66, 0xb1, 0x76, 0xfb, 0x83, 0x1c, 0xf7, 0x26, 0x7e];
 const FOOT_MAGIC = [0xF8, 0x5A, 0x8C, 0x6A, 0xDE, 0xF5, 0xD9, 0x7E, 0xEC, 0xE9, 0x0C, 0xE3, 0x75, 0x8F, 0x29, 0x0B];
-
-function generateFileId() {
-    let fileId = new Uint8Array(16);
-    // node
-    crypto.randomBytes(16).copy(fileId);
-    // browser
-    // crypto.getRandomValues(fileId);
-    return fileId;
-}
-
-function encryptFooterCode(sourceId, target, size) {
-    let c = 64;
-    for (let i = 0; i < size; i++) {
-        sourceId[i] = (sourceId[i] ^ (c ^ target[i]));
-        c = sourceId[i];
-    }
-}
 
 function getTimeObject(date) {
     return {
@@ -40,29 +19,8 @@ function getTimeObject(date) {
         Second: date.getSeconds(),
         Millisecond: date.getMilliseconds(),
     };
-
 }
 
-function formatDateTime(dateTime) {
-    // 确保输入是一个有效的 Date 对象
-    if (!(dateTime instanceof Date)) {
-        throw new Error('Input must be a Date object');
-    }
-
-    // 格式化年、月、日
-    const year = dateTime.getFullYear();
-    const month = String(dateTime.getMonth() + 1).padStart(2, '0');
-    const day = String(dateTime.getDate()).padStart(2, '0');
-
-    // 格式化时、分、秒、毫秒
-    const hours = String(dateTime.getHours()).padStart(2, '0');
-    const minutes = String(dateTime.getMinutes()).padStart(2, '0');
-    const seconds = String(dateTime.getSeconds()).padStart(2, '0');
-    const milliseconds = String(dateTime.getMilliseconds()).padStart(3, '0');
-
-    // 拼接格式化后的时间字符串
-    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}:${milliseconds}`;
-}
 function is2ByteSignedInteger(value) {
     return Number.isInteger(value) && value >= -32768 && value <= 32767;
 }
@@ -189,7 +147,6 @@ class FBXWriter {
         let writer = new ByteBuffer(ByteBuffer.DEFAULT_CAPACITY, ByteBuffer.LITTLE_ENDIAN);
         writer.label = label;
         let { nodes, properties, buffers } = component;
-        // if(label == "Takes"){debugger}
         let numProperties = this.getPropertyListLen(properties, buffers);
 
         writer.writeUint32(numProperties)
@@ -228,7 +185,6 @@ class FBXWriter {
             let property = properties[key];
             let type = typeof property;
             // console.log(`property:${property}`)
-
             // "string" | "number" | "bigint" | "boolean" | "symbol" | "undefined" | "object" | "function"
             switch (type) {
                 case "boolean":
@@ -237,7 +193,6 @@ class FBXWriter {
                 case "number":
                     // if (is2ByteSignedInteger(property)) {
                     //     this.writeProperty(writer, "Y", property);
-                    //     // this.writeProperty(writer, "I", property);
                     //     break;
                     // } else 
                     if (typeCode) {
@@ -290,7 +245,6 @@ class FBXWriter {
                     debugger
                     break;
             }
-            // this.writeProperty(writer, key, property);
         }
 
         if (buffers) {
@@ -422,7 +376,7 @@ class FBXWriter {
         };
         write[typeCode](val);
     }
-    
+
     writePropertyArray(data, writer, type) {
         writer.writeUint32(data.length);
         let encoding = type.indexOf("Int") > -1 ? 0 : 1;
@@ -470,7 +424,9 @@ class FBXWriter {
     }
 
     writeCreationTime() {
-        this.writeSection("CreationTime", { properties: ["1970-01-01 10:00:00:000"] });
+        this.writeSection("CreationTime", { 
+            properties: ["1970-01-01 10:00:00:000"]
+        });
     }
 
     writeCreator() {
@@ -545,17 +501,7 @@ fbx.writeHeader({
         "FBXHeaderVersion": 1003,
         "FBXVersion": fbxVersion,
         "EncryptionType": 0,
-        // "CreationTimeStamp": getTimeObject(createTime),
-        "CreationTimeStamp": {
-            Version: 1000,
-            Year: 2024,
-            Month: 5,
-            Day: 25,
-            Hour: 15,
-            Minute: 20,
-            Second: 19,
-            Millisecond: 425,
-        },
+        "CreationTimeStamp": getTimeObject(createTime),
         "Creator": "Blender (stable FBX IO) - 3.6.5 - 5.4.0",
         "SceneInfo": {
             "properties": [
