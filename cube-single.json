@@ -1,0 +1,2676 @@
+[
+  {
+    "name": "FBXHeaderExtension",
+    "props": [],
+    "nodes": [
+      {
+        "name": "FBXHeaderVersion",
+        "props": [
+          1003
+        ],
+        "nodes": []
+      },
+      {
+        "name": "FBXVersion",
+        "props": [
+          7400
+        ],
+        "nodes": []
+      },
+      {
+        "name": "EncryptionType",
+        "props": [
+          0
+        ],
+        "nodes": []
+      },
+      {
+        "name": "CreationTimeStamp",
+        "props": [],
+        "nodes": [
+          {
+            "name": "Version",
+            "props": [
+              1000
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Year",
+            "props": [
+              2024
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Month",
+            "props": [
+              6
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Day",
+            "props": [
+              11
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Hour",
+            "props": [
+              0
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Minute",
+            "props": [
+              34
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Second",
+            "props": [
+              42
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Millisecond",
+            "props": [
+              910
+            ],
+            "nodes": []
+          }
+        ]
+      },
+      {
+        "name": "Creator",
+        "props": [
+          "Blender (stable FBX IO) - 3.6.5 - 5.4.0"
+        ],
+        "nodes": []
+      },
+      {
+        "name": "SceneInfo",
+        "props": [
+          "SceneInfo::GlobalInfo",
+          "UserData"
+        ],
+        "nodes": [
+          {
+            "name": "Type",
+            "props": [
+              "UserData"
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Version",
+            "props": [
+              100
+            ],
+            "nodes": []
+          },
+          {
+            "name": "MetaData",
+            "props": [],
+            "nodes": [
+              {
+                "name": "Version",
+                "props": [
+                  100
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Title",
+                "props": [
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Subject",
+                "props": [
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Author",
+                "props": [
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Keywords",
+                "props": [
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Revision",
+                "props": [
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Comment",
+                "props": [
+                  ""
+                ],
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "Properties70",
+            "props": [],
+            "nodes": [
+              {
+                "name": "P",
+                "props": [
+                  "DocumentUrl",
+                  "KString",
+                  "Url",
+                  "",
+                  "/foobar.fbx"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "SrcDocumentUrl",
+                  "KString",
+                  "Url",
+                  "",
+                  "/foobar.fbx"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "Original",
+                  "Compound",
+                  "",
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "Original|ApplicationVendor",
+                  "KString",
+                  "",
+                  "",
+                  "Blender Foundation"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "Original|ApplicationName",
+                  "KString",
+                  "",
+                  "",
+                  "Blender (stable FBX IO)"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "Original|ApplicationVersion",
+                  "KString",
+                  "",
+                  "",
+                  "3.6.5"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "Original|DateTime_GMT",
+                  "DateTime",
+                  "",
+                  "",
+                  "01/01/1970 00:00:00.000"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "Original|FileName",
+                  "KString",
+                  "",
+                  "",
+                  "/foobar.fbx"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "LastSaved",
+                  "Compound",
+                  "",
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "LastSaved|ApplicationVendor",
+                  "KString",
+                  "",
+                  "",
+                  "Blender Foundation"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "LastSaved|ApplicationName",
+                  "KString",
+                  "",
+                  "",
+                  "Blender (stable FBX IO)"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "LastSaved|ApplicationVersion",
+                  "KString",
+                  "",
+                  "",
+                  "3.6.5"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "LastSaved|DateTime_GMT",
+                  "DateTime",
+                  "",
+                  "",
+                  "01/01/1970 00:00:00.000"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "Original|ApplicationNativeFile",
+                  "KString",
+                  "",
+                  "",
+                  ""
+                ],
+                "nodes": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "FileId",
+    "props": [
+      [
+        40,
+        179,
+        42,
+        235,
+        182,
+        36,
+        204,
+        194,
+        191,
+        200,
+        176,
+        42,
+        169,
+        43,
+        252,
+        241
+      ]
+    ],
+    "nodes": []
+  },
+  {
+    "name": "CreationTime",
+    "props": [
+      "1970-01-01 10:00:00:000"
+    ],
+    "nodes": []
+  },
+  {
+    "name": "Creator",
+    "props": [
+      "Blender (stable FBX IO) - 3.6.5 - 5.4.0"
+    ],
+    "nodes": []
+  },
+  {
+    "name": "GlobalSettings",
+    "props": [],
+    "nodes": [
+      {
+        "name": "Version",
+        "props": [
+          1000
+        ],
+        "nodes": []
+      },
+      {
+        "name": "Properties70",
+        "props": [],
+        "nodes": [
+          {
+            "name": "P",
+            "props": [
+              "UpAxis",
+              "int",
+              "Integer",
+              "",
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "UpAxisSign",
+              "int",
+              "Integer",
+              "",
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "FrontAxis",
+              "int",
+              "Integer",
+              "",
+              2
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "FrontAxisSign",
+              "int",
+              "Integer",
+              "",
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "CoordAxis",
+              "int",
+              "Integer",
+              "",
+              0
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "CoordAxisSign",
+              "int",
+              "Integer",
+              "",
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "OriginalUpAxis",
+              "int",
+              "Integer",
+              "",
+              -1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "OriginalUpAxisSign",
+              "int",
+              "Integer",
+              "",
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "UnitScaleFactor",
+              "double",
+              "Number",
+              "",
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "OriginalUnitScaleFactor",
+              "double",
+              "Number",
+              "",
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "AmbientColor",
+              "ColorRGB",
+              "Color",
+              "",
+              0,
+              0,
+              0
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "DefaultCamera",
+              "KString",
+              "",
+              "",
+              "Producer Perspective"
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "TimeMode",
+              "enum",
+              "",
+              "",
+              11
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "TimeSpanStart",
+              "KTime",
+              "Time",
+              "",
+              0
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "TimeSpanStop",
+              "KTime",
+              "Time",
+              "",
+              46186158000
+            ],
+            "nodes": []
+          },
+          {
+            "name": "P",
+            "props": [
+              "CustomFrameRate",
+              "double",
+              "Number",
+              "",
+              24
+            ],
+            "nodes": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Documents",
+    "props": [],
+    "nodes": [
+      {
+        "name": "Count",
+        "props": [
+          1
+        ],
+        "nodes": []
+      },
+      {
+        "name": "Document",
+        "props": [
+          907313972,
+          "Scene",
+          "Scene"
+        ],
+        "nodes": [
+          {
+            "name": "Properties70",
+            "props": [],
+            "nodes": [
+              {
+                "name": "P",
+                "props": [
+                  "SourceObject",
+                  "object",
+                  "",
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "ActiveAnimStackName",
+                  "KString",
+                  "",
+                  "",
+                  ""
+                ],
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "RootNode",
+            "props": [
+              0
+            ],
+            "nodes": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "References",
+    "props": [],
+    "nodes": []
+  },
+  {
+    "name": "Definitions",
+    "props": [],
+    "nodes": [
+      {
+        "name": "Version",
+        "props": [
+          100
+        ],
+        "nodes": []
+      },
+      {
+        "name": "Count",
+        "props": [
+          4
+        ],
+        "nodes": []
+      },
+      {
+        "name": "ObjectType",
+        "props": [
+          "GlobalSettings"
+        ],
+        "nodes": [
+          {
+            "name": "Count",
+            "props": [
+              1
+            ],
+            "nodes": []
+          }
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "props": [
+          "Geometry"
+        ],
+        "nodes": [
+          {
+            "name": "Count",
+            "props": [
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "PropertyTemplate",
+            "props": [
+              "FbxMesh"
+            ],
+            "nodes": [
+              {
+                "name": "Properties70",
+                "props": [],
+                "nodes": [
+                  {
+                    "name": "P",
+                    "props": [
+                      "Color",
+                      "ColorRGB",
+                      "Color",
+                      "",
+                      0.8,
+                      0.8,
+                      0.8
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "BBoxMin",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "BBoxMax",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Primary Visibility",
+                      "bool",
+                      "",
+                      "",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Casts Shadows",
+                      "bool",
+                      "",
+                      "",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Receive Shadows",
+                      "bool",
+                      "",
+                      "",
+                      1
+                    ],
+                    "nodes": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "props": [
+          "Model"
+        ],
+        "nodes": [
+          {
+            "name": "Count",
+            "props": [
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "PropertyTemplate",
+            "props": [
+              "FbxNode"
+            ],
+            "nodes": [
+              {
+                "name": "Properties70",
+                "props": [],
+                "nodes": [
+                  {
+                    "name": "P",
+                    "props": [
+                      "QuaternionInterpolate",
+                      "enum",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationOffset",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationPivot",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingOffset",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingPivot",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TranslationActive",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TranslationMin",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TranslationMax",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TranslationMinX",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TranslationMinY",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TranslationMinZ",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TranslationMaxX",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TranslationMaxY",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TranslationMaxZ",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationOrder",
+                      "enum",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationSpaceForLimitOnly",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationStiffnessX",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationStiffnessY",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationStiffnessZ",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "AxisLen",
+                      "double",
+                      "Number",
+                      "",
+                      10
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "PreRotation",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "PostRotation",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationActive",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationMin",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationMax",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationMinX",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationMinY",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationMinZ",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationMaxX",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationMaxY",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "RotationMaxZ",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "InheritType",
+                      "enum",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingActive",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingMin",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingMax",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      1,
+                      1,
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingMinX",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingMinY",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingMinZ",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingMaxX",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingMaxY",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ScalingMaxZ",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "GeometricTranslation",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "GeometricRotation",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "GeometricScaling",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      1,
+                      1,
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MinDampRangeX",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MinDampRangeY",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MinDampRangeZ",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MaxDampRangeX",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MaxDampRangeY",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MaxDampRangeZ",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MinDampStrengthX",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MinDampStrengthY",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MinDampStrengthZ",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MaxDampStrengthX",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MaxDampStrengthY",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MaxDampStrengthZ",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "PreferedAngleX",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "PreferedAngleY",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "PreferedAngleZ",
+                      "double",
+                      "Number",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "LookAtProperty",
+                      "object",
+                      "",
+                      ""
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "UpVectorProperty",
+                      "object",
+                      "",
+                      ""
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Show",
+                      "bool",
+                      "",
+                      "",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "NegativePercentShapeSupport",
+                      "bool",
+                      "",
+                      "",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "DefaultAttributeIndex",
+                      "int",
+                      "Integer",
+                      "",
+                      -1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Freeze",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "LODBox",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Lcl Translation",
+                      "Lcl Translation",
+                      "",
+                      "A",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Lcl Rotation",
+                      "Lcl Rotation",
+                      "",
+                      "A",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Lcl Scaling",
+                      "Lcl Scaling",
+                      "",
+                      "A",
+                      1,
+                      1,
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Visibility",
+                      "Visibility",
+                      "",
+                      "A",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Visibility Inheritance",
+                      "Visibility Inheritance",
+                      "",
+                      "",
+                      1
+                    ],
+                    "nodes": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "props": [
+          "Material"
+        ],
+        "nodes": [
+          {
+            "name": "Count",
+            "props": [
+              1
+            ],
+            "nodes": []
+          },
+          {
+            "name": "PropertyTemplate",
+            "props": [
+              "FbxSurfacePhong"
+            ],
+            "nodes": [
+              {
+                "name": "Properties70",
+                "props": [],
+                "nodes": [
+                  {
+                    "name": "P",
+                    "props": [
+                      "ShadingModel",
+                      "KString",
+                      "",
+                      "",
+                      "Phong"
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "MultiLayer",
+                      "bool",
+                      "",
+                      "",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "EmissiveColor",
+                      "Color",
+                      "",
+                      "A",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "EmissiveFactor",
+                      "Number",
+                      "",
+                      "A",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "AmbientColor",
+                      "Color",
+                      "",
+                      "A",
+                      0.2,
+                      0.2,
+                      0.2
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "AmbientFactor",
+                      "Number",
+                      "",
+                      "A",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "DiffuseColor",
+                      "Color",
+                      "",
+                      "A",
+                      0.8,
+                      0.8,
+                      0.8
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "DiffuseFactor",
+                      "Number",
+                      "",
+                      "A",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TransparentColor",
+                      "Color",
+                      "",
+                      "A",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "TransparencyFactor",
+                      "Number",
+                      "",
+                      "A",
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Opacity",
+                      "Number",
+                      "",
+                      "A",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "NormalMap",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Bump",
+                      "Vector3D",
+                      "Vector",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "BumpFactor",
+                      "double",
+                      "Number",
+                      "",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "DisplacementColor",
+                      "ColorRGB",
+                      "Color",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "DisplacementFactor",
+                      "double",
+                      "Number",
+                      "",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "VectorDisplacementColor",
+                      "ColorRGB",
+                      "Color",
+                      "",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "VectorDisplacementFactor",
+                      "double",
+                      "Number",
+                      "",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "SpecularColor",
+                      "Color",
+                      "",
+                      "A",
+                      0.2,
+                      0.2,
+                      0.2
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "SpecularFactor",
+                      "Number",
+                      "",
+                      "A",
+                      1
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "Shininess",
+                      "Number",
+                      "",
+                      "A",
+                      20
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ShininessExponent",
+                      "Number",
+                      "",
+                      "A",
+                      20
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ReflectionColor",
+                      "Color",
+                      "",
+                      "A",
+                      0,
+                      0,
+                      0
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "P",
+                    "props": [
+                      "ReflectionFactor",
+                      "Number",
+                      "",
+                      "A",
+                      1
+                    ],
+                    "nodes": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Objects",
+    "props": [],
+    "nodes": [
+      {
+        "name": "Geometry",
+        "props": [
+          468857135,
+          "Geometry::Cube",
+          "Mesh"
+        ],
+        "nodes": [
+          {
+            "name": "Properties70",
+            "props": [],
+            "nodes": []
+          },
+          {
+            "name": "GeometryVersion",
+            "props": [
+              124
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Vertices",
+            "props": [
+              [
+                1,
+                1,
+                1,
+                1,
+                1,
+                -1,
+                1,
+                -1,
+                1,
+                1,
+                -1,
+                -1,
+                -1,
+                1,
+                1,
+                -1,
+                1,
+                -1,
+                -1,
+                -1,
+                1,
+                -1,
+                -1,
+                -1
+              ]
+            ],
+            "nodes": []
+          },
+          {
+            "name": "PolygonVertexIndex",
+            "props": [
+              [
+                0,
+                4,
+                6,
+                -3,
+                3,
+                2,
+                6,
+                -8,
+                7,
+                6,
+                4,
+                -6,
+                5,
+                1,
+                3,
+                -8,
+                1,
+                0,
+                2,
+                -4,
+                5,
+                4,
+                0,
+                -2
+              ]
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Edges",
+            "props": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                10,
+                11,
+                12,
+                13,
+                16
+              ]
+            ],
+            "nodes": []
+          },
+          {
+            "name": "LayerElementNormal",
+            "props": [
+              0
+            ],
+            "nodes": [
+              {
+                "name": "Version",
+                "props": [
+                  101
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Name",
+                "props": [
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "MappingInformationType",
+                "props": [
+                  "ByPolygonVertex"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "ReferenceInformationType",
+                "props": [
+                  "Direct"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Normals",
+                "props": [
+                  [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    -1,
+                    0,
+                    0,
+                    -1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "LayerElementUV",
+            "props": [
+              0
+            ],
+            "nodes": [
+              {
+                "name": "Version",
+                "props": [
+                  101
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Name",
+                "props": [
+                  "UVMap"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "MappingInformationType",
+                "props": [
+                  "ByPolygonVertex"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "ReferenceInformationType",
+                "props": [
+                  "IndexToDirect"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "UV",
+                "props": [
+                  [
+                    0.375,
+                    0,
+                    0.625,
+                    0,
+                    0.375,
+                    0.25,
+                    0.625,
+                    0.25,
+                    0.125,
+                    0.5,
+                    0.375,
+                    0.5,
+                    0.625,
+                    0.5,
+                    0.875,
+                    0.5,
+                    0.125,
+                    0.75,
+                    0.375,
+                    0.75,
+                    0.625,
+                    0.75,
+                    0.875,
+                    0.75,
+                    0.375,
+                    1,
+                    0.625,
+                    1
+                  ]
+                ],
+                "nodes": []
+              },
+              {
+                "name": "UVIndex",
+                "props": [
+                  [
+                    6,
+                    7,
+                    11,
+                    10,
+                    9,
+                    10,
+                    13,
+                    12,
+                    0,
+                    1,
+                    3,
+                    2,
+                    4,
+                    5,
+                    9,
+                    8,
+                    5,
+                    6,
+                    10,
+                    9,
+                    2,
+                    3,
+                    6,
+                    5
+                  ]
+                ],
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "LayerElementMaterial",
+            "props": [
+              0
+            ],
+            "nodes": [
+              {
+                "name": "Version",
+                "props": [
+                  101
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Name",
+                "props": [
+                  ""
+                ],
+                "nodes": []
+              },
+              {
+                "name": "MappingInformationType",
+                "props": [
+                  "AllSame"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "ReferenceInformationType",
+                "props": [
+                  "IndexToDirect"
+                ],
+                "nodes": []
+              },
+              {
+                "name": "Materials",
+                "props": [
+                  [
+                    0
+                  ]
+                ],
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "Layer",
+            "props": [
+              0
+            ],
+            "nodes": [
+              {
+                "name": "Version",
+                "props": [
+                  100
+                ],
+                "nodes": []
+              },
+              {
+                "name": "LayerElement",
+                "props": [],
+                "nodes": [
+                  {
+                    "name": "Type",
+                    "props": [
+                      "LayerElementNormal"
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "TypedIndex",
+                    "props": [
+                      0
+                    ],
+                    "nodes": []
+                  }
+                ]
+              },
+              {
+                "name": "LayerElement",
+                "props": [],
+                "nodes": [
+                  {
+                    "name": "Type",
+                    "props": [
+                      "LayerElementUV"
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "TypedIndex",
+                    "props": [
+                      0
+                    ],
+                    "nodes": []
+                  }
+                ]
+              },
+              {
+                "name": "LayerElement",
+                "props": [],
+                "nodes": [
+                  {
+                    "name": "Type",
+                    "props": [
+                      "LayerElementMaterial"
+                    ],
+                    "nodes": []
+                  },
+                  {
+                    "name": "TypedIndex",
+                    "props": [
+                      0
+                    ],
+                    "nodes": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Model",
+        "props": [
+          370274723,
+          "Model::Cube",
+          "Mesh"
+        ],
+        "nodes": [
+          {
+            "name": "Version",
+            "props": [
+              232
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Properties70",
+            "props": [],
+            "nodes": [
+              {
+                "name": "P",
+                "props": [
+                  "Lcl Rotation",
+                  "Lcl Rotation",
+                  "",
+                  "A",
+                  -90.00000933466734,
+                  0,
+                  0
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "Lcl Scaling",
+                  "Lcl Scaling",
+                  "",
+                  "A",
+                  100,
+                  100,
+                  100
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "DefaultAttributeIndex",
+                  "int",
+                  "Integer",
+                  "",
+                  0
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "InheritType",
+                  "enum",
+                  "",
+                  "",
+                  1
+                ],
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "MultiLayer",
+            "props": [
+              0
+            ],
+            "nodes": []
+          },
+          {
+            "name": "MultiTake",
+            "props": [
+              0
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Shading",
+            "props": [
+              true
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Culling",
+            "props": [
+              "CullingOff"
+            ],
+            "nodes": []
+          }
+        ]
+      },
+      {
+        "name": "Material",
+        "props": [
+          178641477,
+          "Material::Material",
+          ""
+        ],
+        "nodes": [
+          {
+            "name": "Version",
+            "props": [
+              102
+            ],
+            "nodes": []
+          },
+          {
+            "name": "ShadingModel",
+            "props": [
+              "Phong"
+            ],
+            "nodes": []
+          },
+          {
+            "name": "MultiLayer",
+            "props": [
+              0
+            ],
+            "nodes": []
+          },
+          {
+            "name": "Properties70",
+            "props": [],
+            "nodes": [
+              {
+                "name": "P",
+                "props": [
+                  "DiffuseColor",
+                  "Color",
+                  "",
+                  "A",
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "AmbientColor",
+                  "Color",
+                  "",
+                  "A",
+                  0.05087608844041824,
+                  0.05087608844041824,
+                  0.05087608844041824
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "AmbientFactor",
+                  "Number",
+                  "",
+                  "A",
+                  0
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "BumpFactor",
+                  "double",
+                  "Number",
+                  "",
+                  0
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "SpecularColor",
+                  "Color",
+                  "",
+                  "A",
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "SpecularFactor",
+                  "Number",
+                  "",
+                  "A",
+                  0.25
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "Shininess",
+                  "Number",
+                  "",
+                  "A",
+                  25
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "ShininessExponent",
+                  "Number",
+                  "",
+                  "A",
+                  25
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "ReflectionColor",
+                  "Color",
+                  "",
+                  "A",
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929
+                ],
+                "nodes": []
+              },
+              {
+                "name": "P",
+                "props": [
+                  "ReflectionFactor",
+                  "Number",
+                  "",
+                  "A",
+                  0
+                ],
+                "nodes": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Connections",
+    "props": [],
+    "nodes": [
+      {
+        "name": "C",
+        "props": [
+          "OO",
+          370274723,
+          0
+        ],
+        "nodes": []
+      },
+      {
+        "name": "C",
+        "props": [
+          "OO",
+          468857135,
+          370274723
+        ],
+        "nodes": []
+      },
+      {
+        "name": "C",
+        "props": [
+          "OO",
+          178641477,
+          370274723
+        ],
+        "nodes": []
+      }
+    ]
+  },
+  {
+    "name": "Takes",
+    "props": [],
+    "nodes": [
+      {
+        "name": "Current",
+        "props": [
+          ""
+        ],
+        "nodes": []
+      }
+    ]
+  }
+]
